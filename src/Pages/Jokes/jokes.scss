@@ -1,0 +1,59 @@
+.jokes{
+    background-color : #fbf4cd;
+    height : 90.5vh;
+    text-align: center;
+}
+
+.joke-card{
+    position:fixed;
+    top: 53%;
+    left: 25%;
+    width:30em;
+    height:18em;
+    margin-top: -13em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    
+    background-color: white;
+    padding : 0 20px;
+    border-radius: 40px;
+}
+
+.title{
+   padding : 20px;
+
+}
+
+hr{
+    border-top: 1px solid #ccc;
+  
+}
+
+.joke-content{
+    margin-top: 60px;
+}
+
+.button{
+    position : fixed;
+    top : 70%;
+    left : 18%;
+    width : 15em;
+    height : 4em;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.img{
+   position: fixed;
+   top : 22%;
+   right : 5%;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

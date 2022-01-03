@@ -1,0 +1,64 @@
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.container1-text{
+    display: inline;
+    width: 50%;
+    margin-left : 55px;
+}
+
+.container1-text h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f5e16f; 
+}
+
+.container1-text p{
+    font-size: 1.5rem;
+    color: rgba(28, 29, 25, 0.507); 
+}
+
+.container1-lottie{
+    display: inline;
+    width: 50%;
+}
+
+.how-it-works{
+    text-align: center;
+    font-size: 1.5rem;
+    color : black;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.container2-text{
+    display: inline;
+    width: 50%;
+    margin-left : 55px;
+}
+
+.container2-text p{
+    font-size: 1.75rem;
+    color: rgba(28, 29, 25, 0.507); 
+}
+
+.container2-lottie{
+    display: inline;
+    width: 50%;
+}
