@@ -1,8 +1,6 @@
 import React from 'react'
 import Lottie from 'react-lottie';
 import animationData from '../../Lotties/time-relax.json';
-import animationData1 from '../../Lotties/camping.json';
-import animationData2 from '../../Lotties/reading-book.json';
 import './home.scss';
 
 
@@ -15,25 +13,6 @@ const home = () => {
         rendererSettings: {
           // preserveAspectRatio: "xMidYMid slice"
         }};
-
-        const defaultOptions1 = {
-            loop: true,
-            autoplay: true,
-            animationData: animationData1,
-            rendererSettings: {
-              // preserveAspectRatio: "xMidYMid slice"
-            }};
-            
-        const defaultOptions2 = {
-                loop: true,
-                autoplay: true,
-                animationData: animationData2,
-                rendererSettings: {
-                  // preserveAspectRatio: "xMidYMid slice"
-            }};    
-
-
-
     return (
         <div className='home'>
             <div className='container1'>
