@@ -48,32 +48,6 @@ const home = () => {
                     <Lottie options={defaultOptions} height={600} width={600} />
                 </div>
             </div>
-            <div className="how-it-works">
-                    <h2>How it works</h2>
-            </div>
-            <div className="container2">
-                <div className="container2-lottie">
-                    <Lottie options={defaultOptions1} height={600} width={600} />
-                </div>
-                <div className="container2-text">
-                <p>Worked for long hours? <br/>
-                    Took a break? <br/>
-                    But you are clueless about what to do? <br/>
-                    Navigate to activities pages and find a random activity to do.<br/></p>
-                </div> 
-            </div>
-            <div className="container3">
-                <div className="container3-text">
-                    <p>Oh!! So you like to read books in your break time??<br/>
-                        Well, we have a book section for you. <br/>
-                        Just click on the book section and find a random book to read. <br/>
-                        Grab a cup of coffee and read the recommended book. <br/>
-                    </p>
-                </div>
-                <div className="container3-lottie">
-                    <Lottie options={defaultOptions2} height={600} width={600} />
-                </div>
-            </div>
         </div>
     )
 }
