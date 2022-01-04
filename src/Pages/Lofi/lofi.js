@@ -22,7 +22,7 @@ const lofi = () => {
         <div className="lofi">
             <div className="form">
             <input type="text" id="search" placeholder="Search for a video" />
-            <button id="search-button" onClick={()=>fetchData('AIzaSyAujO3tQ-Kb4iZGbYqcpaXcLAJRL-qC8NU', document.getElementById('search').value)}>Search</button>
+            <button id="search-button" onClick={()=>fetchData('', document.getElementById('search').value)}>Search</button> 
             </div>
             { <div id="results" className='iframeVideo'>
                 <iframe id='video' title='video' width="860" height="450" src={video}  ></iframe>

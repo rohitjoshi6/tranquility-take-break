@@ -17,7 +17,7 @@ const meditation = () => {
     };
 
     useEffect (() => {
-    async function fetchData(key='AIzaSyAujO3tQ-Kb4iZGbYqcpaXcLAJRL-qC8NU', query="meditation") {
+    async function fetchData(key='', query="meditation") {
         
         const response = await fetch('https://www.googleapis.com/youtube/v3/search?key=' + key  + '&type=video&part=snippet&maxResults=5&q=' + query)
 
